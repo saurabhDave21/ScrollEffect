@@ -38,6 +38,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    .marque{
+     flex-shrink: 0;
+     transform: translateX(100px);
+    }
     .marque h1 {
         font-size: 8vw;
     }
